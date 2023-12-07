@@ -1,5 +1,10 @@
 # Git Branching Cheat Sheet
 
+## Overview
+
+Summary of commonly used git commands and practice with branching.
+
+
 ## Basic Commands
 * `git init` - initializes local git repository
 * `git add . ` - this adds everything for tracking, moves files into staging area
