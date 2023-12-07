@@ -3,6 +3,7 @@
 ## Overview
 
 Summary of commonly used git commands and practice with branching.
+Stuff added by Diego.
 
 
 ## Basic Commands
