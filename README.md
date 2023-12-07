@@ -3,9 +3,49 @@
 ## Overview
 
 Summary of commonly used git commands and practice with branching.
-derp 
-derp
-derp
+
+## Summary of Branch Workflow
+1. Checkout and pull main
+	```bash
+	git checkout main
+	git pull origin main
+	```
+1. Checkout new branch from up-to-date main
+	``` bash
+	git checkout -b someFeature
+	```
+
+1. Work, committing each completed task, until feature is complete
+1. Pull remote main into local branch
+	```bash
+	git add .
+	git commit -m "complete feature"
+	git pull origin main
+	```
+
+	* If auto merge succeeds, save and quit from `vi` editor:
+	```
+	:wq
+	```
+
+	* If `CONFLICT`, fix conflicts in all files and removing merge markers and commit
+	``` bash
+	git add .
+	git commit -m "fix merge conflicts"
+	```
+1. Push to remote branch
+	```
+	git push origin someFeature
+	 bash 
+	```
+1. On Github, create pull request and merge with main
+1. Checkout and pull merge main
+	```
+	bash
+	git checkout main
+	git pull origin main
+	```
+
 
 ## Basic Commands
 * `git init` - initializes local git repository
@@ -26,6 +66,8 @@ derp
 * `git branch` - list local branches
 * `git branch branchName` - create local branch `branchName`
 * `git checkout branchName` - moves to the branch `branchName`
+* `git checkout -b branchName` - create and move to `branchName`
+
 
 ## Remote Commands
 * `git remote add origin URL` - set `origin` as alias for remote repo `URL`
