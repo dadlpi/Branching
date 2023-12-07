@@ -11,15 +11,15 @@
 * `git log --oneline` - this shows you your prior commits on your local repository but compact format
 * `git status` - shows the state of the local working directory
 * `git config -l` - this shows you the local git configuration
-
-
-
-* `git branch -m main` - this changes the name of branch to main or to any value you want to use
-* `git version` - shows the version of git you are using
+* `git help` - show synopsis of git commands
 
 ## Branching Commands
 * `git branch` - list local branches
 * `git branch branchName` - create local branch `branchName`
 * `git checkout branchName` - moves to the branch `branchName`
+
+
+* `git branch -m main` - this changes the name of branch to main or to any value you want to use
+* `git version` - shows the version of git you are using
 
 ## 
