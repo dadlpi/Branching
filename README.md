@@ -46,7 +46,6 @@ Summary of commonly used git commands and practice with branching.
 	git pull origin main
 	```
 
->>>>>>> 2e19ac87428961b22fa59fdac1801725af6dae67
 
 ## Basic Commands
 * `git init` - initializes local git repository
@@ -68,6 +67,7 @@ Summary of commonly used git commands and practice with branching.
 * `git branch branchName` - create local branch `branchName`
 * `git checkout branchName` - moves to the branch `branchName`
 * `git checkout -b branchName` - create and move to `branchName`
+
 
 ## Remote Commands
 * `git remote add origin URL` - set `origin` as alias for remote repo `URL`
