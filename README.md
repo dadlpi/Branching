@@ -14,7 +14,12 @@
 
 
 
-* `git branch -m main` - this changes the name of 
+* `git branch -m main` - this changes the name of branch to main or to any value you want to use
 * `git version` - shows the version of git you are using
+
+## Branching Commands
+* `git branch` - list local branches
+* `git branch branchName` - create local branch `branchName`
+* `git checkout branchName` - moves to the branch `branchName`
 
 ## 
