@@ -28,4 +28,4 @@ Summary of commonly used git commands and practice with branching.
 ## Remote Commands
 * `git remote add origin URL` - set `origin` as alias for remote repo `URL`
 * `git push origin branchName` - push local commits to `origin` repo on branch `branchName`
-
+* `git pull origin main`
