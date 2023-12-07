@@ -19,7 +19,7 @@ Summary of commonly used git commands and practice with branching.
 
 
 
-* `git branch -m main` - this changes the name of 
+* `git branch -m main` - this changes the name of your branch to whatever it is you want, typically, master, main etc.
 * `git version` - shows the version of git you are using
 
 ## 
